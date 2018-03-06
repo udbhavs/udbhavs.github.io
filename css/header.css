@@ -1,0 +1,30 @@
+:root {
+    --base-color: #7d42f4;
+    --second-color: white;
+}
+
+#header {
+    background-color: var(--base-color);
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15vw 15vw;
+    position: fixed;
+    /*coords*/
+    top: 0px;
+    left: 0px;
+    height: 10vh;
+    color: var(--second-color);
+    font-family: sans-serif;
+    font-size: 6vh;
+}
+
+.header-option {
+    background-color: var(--base-color);
+    margin: auto;
+    transition: 0.2s;
+}
+.header-option:hover {
+    background-color: var(--second-color);
+    color: var(--base-color);
+    cursor: pointer;
+}
